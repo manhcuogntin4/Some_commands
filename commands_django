@@ -1,0 +1,71 @@
+django-admin
+django-admin startproject project_name
+python manage.py runserver : for running server
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+(cuong-nguyen Manhcuongtin4)
+
+Docker
+sudo docker container ls -a
+docker pull images
+sudo docker run -d -p 5432:5432 postgres (first port is port of system, second port is port of app)
+docker p
+docker run -d -e POSTGRES_USER=test -e POSTGRES_PASSWORD=test -p 5432:5432 postgres
+
+sudo chmod 777 /var/run/docker.sock
+docker-compose up -d
+docker-compose stop
+sudo docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+pip install -r requirements.txt
+-r mean requirements
+pip freeze
+(permet de mise à jour le fichier requirements marche que sur le environnement virtuel)
+
+pip freeze > requirements.txt
+source venv/bin/activate
+npm install : for install front with node js , npm comme python and pip
+npm run serve
+
+
+
+
+git add filename
+git status
+git diff
+git add .
+git clone
+git pull
+git commit -m ""
+git commit --amend
+git remote set-url origin git@github.com:manhcuogntin4/pokedex.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
