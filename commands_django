@@ -42,7 +42,7 @@ git commit --amend
 git remote set-url origin git@github.com:manhcuogntin4/pokedex.git
 
 
-
+python3.7 -m pip install protego
 
 
 
