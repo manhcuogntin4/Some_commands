@@ -46,6 +46,9 @@ python3.7 -m pip install protego
 
 virtualenv venv --python=python3
 
+boobank -a -b fakebank list
+
+
 
 
 
