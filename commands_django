@@ -48,6 +48,9 @@ virtualenv venv --python=python3
 
 boobank -a -b fakebank list
 
+boobank -a -b fakbank history ID
+
+wetboobs -a -b weather cities paris
 
 
 
