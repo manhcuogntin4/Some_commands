@@ -4,7 +4,7 @@ python manage.py runserver : for running server
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
-(cuong-nguyen Manhcuongtin4)
+
 
 Docker
 sudo docker container ls -a
